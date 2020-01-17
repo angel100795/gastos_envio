@@ -19,16 +19,14 @@
 #
 ##############################################################################
 {
-    'name': 'Delivery Quadit Groups',
+    'name': 'Payment Acquirer Groups',
     'version': '9.0.1.0.0',
-    'author': 'QUADIT.MX',
-    'website': 'www.quadit.mx',
-    'license': 'LGPL-3',
+    'author': 'ADHOC SA',
+    'website': 'www.adhoc.com.ar',
+    'license': 'AGPL-3',
     'category': 'Accounting & Finance',
     'depends': [
-        'stock',
-        'delivery',
-        'website_sale',
+        'payment'
     ],
     'data': [
         'views/payment_acquirer_view.xml',
